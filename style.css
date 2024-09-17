@@ -1,4 +1,3 @@
-/* General Reset */
 *,
 *::before,
 *::after {
@@ -221,7 +220,6 @@ section {
   --clr-accent: #008951;
 }
 
-/* New Styles for Boxes Below Our Products */
 .boxes {
   display: flex;
   justify-content: space-between;
@@ -238,13 +236,13 @@ section {
 }
 
 .box:first-child {
-  background-color: #ffb347; /* Light orange */
+  background-color: #ffb347;
 }
 
 .box:nth-child(2) {
-  background-color: #ff9a9e; /* Light pink */
+  background-color: #ff9a9e; 
 }
 
 .box:nth-child(3) {
-  background-color: #a0e6a0; /* Light green */
+  background-color: #a0e6a0; 
 }
